@@ -1,0 +1,30 @@
+1) 	having_IP_Address: using IP address in the hostname part of the URL address means users can almost be sure someone is trying to steal his personal information. This feature is a binary feature.
+2) 	URL_Length: Phishers resort to hide the suspicious part of the URL, which may redirect the information submitted by the users or redirect the uploaded page to a suspicious domain.
+3) 	Shortening_Service: URL shortening is a method on the World Wide Web in which a URL may be made considerably smaller in length and still leads to the required webpage. 
+4) 	having_At_Symbol: phishers attempt to hide the suspicious part of the URL. One of the things that cause suspicion is the existence of the '@' symbol in the URL. This feature is a binary feature.
+5) 	double_slash_redirecting: Double slash redirecting
+6) 	Prefix_Suffix: phishers deceive users by reshaping the URL to look like legitimate ones. A technique used to do so is by adding prefix or suffix to the legitimate URL so users might not notice any difference.
+7) 	having_Sub_Domain: another technique used by the phishers to deceive the users is by adding subdomain(s) to the URL, and thus, the users may believe that they are dealing with a credited website. This feature is a ternary feature that is having one subdomain, more than one, and no subdomain.
+8) 	Domain_registeration_length: the domain registration is short or long.
+9) 	Favicon: A favicon is a graphic image (icon) associated with a specific webpage. Many organisations show favicon as a visual reminder of the website identity in the address bar.
+10) port: using non-standard port 
+11) HTTPS_token: HTTPS is a Hyper Text Transfer Protocol (HTTP) plus Secure Sockets Layer (SSL). Usually, legitimate websites utilise secure domains every time sensitive information is transferred.
+12) Request_URL: If the objects are loaded from a domain different from the domain typed in the URL address bar, then the web page is potentially compromised a phishing suspicion.
+13) URL_of_Anchor: An anchor is an element defined by the <a> tag. This feature is a ternary feature and treated exactly as 'Request URL'.
+14) Links_in_tags: Commonly, legitimate websites to use < Meta > tags to offer metadata about the HTML document; < Script > tags to create a client side scripts; and < Link > tags to retrieve other web resources. It is expected that these tags are linked to the same domain of the webpage.  For this feature, we calculate the existence rate.
+15) SFH: Server form handler 'SFH': Once the user submits his information, that information will be transferred to a server to be processed. There are three possible cases for this feature those are: the SFH is empty, refers to a different domain, and the SFH is associated with the same domain shown in the address bar.
+16) Submitting_to_email: the website allows submitting information to email via form or not.
+17) Abnormal_URL: the URL is recognised by WHOIS or not.
+18) Redirect: the website re-directs or not.
+19) on_mouseover: the website uses onMouseOver event or not.
+20) RightClick: the website disables right click or not.
+21) popUpWidnow: the website uses pop-up windows or not.
+22) Iframe: IFrame is an HTML tag used to display an additional webpage into the one that is currently shown.
+23) age_of_domain: Short or long time.
+24) DNSRecord: DNS record is found or not.
+25) web_traffic: low, medium and high traffic.
+26) Page_Rank: low or high page rank.
+27) Google_Index: indexed or not indexed.
+28) Links_pointing_to_page: no links, some or many links
+29) Statistical_report: the website has been reported or not.
+30) Result: not phishing and phishing.
